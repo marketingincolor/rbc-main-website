@@ -1,0 +1,617 @@
+::-webkit-input-placeholder {
+    color: $typography-input-text[color]!important;
+}
+
+:-moz-placeholder {
+	opacity: 1;
+	color: $typography-input-text[color]!important;
+}
+
+::-moz-placeholder {
+	opacity: 1;
+    color: $typography-input-text[color]!important;
+}
+
+:-ms-input-placeholder {
+    color: $typography-input-text[color]!important;
+}
+
+textarea {
+	@typography( $typography-input-text );
+}
+
+.site-description{
+	color: $typography-header-logo[color];
+}
+
+blockquote {
+    border-color: $color-gray-variations;
+}
+
+#content:before{
+	background: $content-background[color];
+}
+
+.cherry-breadcrumbs-holder{
+	background: $body-background[color];
+}
+
+/* header */
+
+#static-area-header-top .container .row:before{
+	background: $color-gray-variations;
+}
+.isStick#menu-primary{
+	background: $color-gray-variations;
+}
+.isStick#menu-primary:after{
+	background: $color-gray-variations;
+}
+
+/* end header */
+/*h3.widget-title{
+	color: $typography-h2[color];
+}*/
+.site-title.text-logo .site-link:hover{
+	color: $color-secondary;
+}
+.cherry-box .box-primary {
+	color: $color-link;
+}
+.cherry-mega-menu-sub a{
+	color: $color-link;
+}
+.cherry-mega-menu-sub a:hover{
+	color: $color-link-hover;
+}
+#menu-primary #menu-primary-items .sub-menu, #menu-primary #menu-primary-items .simple-sub{s;
+	background: transparent;
+	border-color: $color-secondary;
+}
+#menu-primary #menu-primary-items .sub-menu li .sub-menu, #menu-primary #menu-primary-items .simple-sub li .simple-sub{
+	background: transparent;
+}
+#menu-primary #menu-primary-items .sub-menu li:first-child, #menu-primary #menu-primary-items .simple-sub li{
+	background: $color-secondary;
+}
+#menu-primary #menu-primary-items .sub-menu li a, #menu-primary #menu-primary-items .simple-sub li a{
+	color: $color-primary;
+}
+#menu-primary #menu-primary-items .sub-menu li .sub-menu li a, #menu-primary #menu-primary-items .simple-sub li .simple-sub li a{
+	color: $color-primary;
+}
+#menu-primary #menu-primary-items .sub-menu li .sub-menu li a:hover, #menu-primary #menu-primary-items .simple-sub li .simple-sub li a:hover{
+	color: $color-link-hover;
+}
+#menu-primary #menu-primary-items .sub-menu li a:hover, #menu-primary #menu-primary-items .simple-sub li.current_page_item a, #menu-primary #menu-primary-items .simple-sub li a:hover, #menu-primary #menu-primary-items .simple-sub li.current_page_item a{
+	color: $color-link-hover;
+}
+#menu-primary #menu-primary-items > li a > div span{
+	color: $typography-header-menu[color];
+}
+#menu-primary #menu-primary-items > li a > div:first-child + div span, #menu-primary #menu-primary-items > li.current-menu-item > a > div:first-child + div span{
+	color: $color-link-hover;
+}
+#menu-primary #menu-primary-items > li a > div:first-child + div .arrow_mov:before{
+	color: $color-link-hover;
+}
+#menu-primary #menu-primary-items > li a:before{
+	background-color: $color-link-hover;
+}
+#menu-primary .menu-primary_trigger{
+	color: $color-secondary;
+	background-color:transparent; 
+}
+#menu-primary .menu-primary_trigger:hover{
+	color: $color-link-hover;
+}
+#menu-primary .cherry-mega-menu-mobile-trigger{
+	color: $color-primary;
+}
+#menu-primary .cherry-mega-menu-mobile-trigger:hover{
+	color: $color-link-hover;
+}
+#menu-primary #menu-primary-items .cherry-mega-menu-sub .cherry-posts-list .cherry-banner_link{
+	background-color: $color-link-hover;
+	color: $color-secondary;
+}
+#menu-primary #menu-primary-items .cherry-mega-menu-sub .cherry-posts-list .cherry-banner_link:hover{
+	background-color: $color-link;
+	color: $color-secondary;
+}
+#menu-primary #menu-primary-items .cherry-mega-menu-sub .cherry-mega-menu-sub-item{
+	border-color: @lighten( $color-gray-variations, 10 );
+}
+#menu-primary #menu-primary-items .cherry-mega-menu-sub blockquote{
+	color: $color-gray-variations;
+}
+@media (max-width: 768px){
+	#menu-primary #menu-primary-items{
+		background: $color-gray-variations;
+	}
+}
+
+.cherry-btn-info:hover{
+	color: $color-link-hover!important;
+}
+
+#static-area-footer-top{
+	/*background: @darken( $color-gray-variations, 0);*/
+}
+#static-area-footer-top .widget .menu li a:hover{
+	color:  $color-secondary!important;
+}
+#footer #menu-secondary #menu-secondary-items li a:hover{
+	color: $color-link;
+}
+#footer #menu-secondary #menu-secondary-items li.current_page_item a{
+	color: $color-link;
+}
+.cherry-breadcrumbs .cherry-breadcrumbs_content .cherry-breadcrumbs_wrap .cherry-breadcrumbs_item_target, .cherry-breadcrumbs .cherry-breadcrumbs_content .cherry-breadcrumbs_wrap .cherry-breadcrumbs_item a:hover{
+	color: $color-link;
+}
+.cherry-breadcrumbs .page-title{
+	color: $color-secondary;
+}
+.cherry-breadcrumbs_item a:hover{
+	color: $color-link;
+}
+.cherry-breadcrumbs .cherry-breadcrumbs_content{
+	border-color: @lighten( $typography-breadcrumbs[color] , 45 );
+}
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default.cherry-spoiler-closed .cherry-spoiler-title{
+	color: $color-link;
+}
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-title, .cherry-accordion .cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-title:hover{
+	color: $color-link-hover;
+}
+
+/* search header*/
+header .static-search-form .search-field{
+	background: $color-secondary;
+}
+.static-search-form input[type="submit"]{
+	border-color: @lighten( $color-gray-variations , 100 );
+	color: $color-secondary;
+	background: $color-link;
+}
+.static-search-form input[type="submit"]:hover{
+	background: $color-link-hover;
+	color: $color-secondary;
+}
+
+/* end search header */
+
+/* portfolio */
+.portfolio-wrap .portfolio-filter ul.order-filter .orderby-list{
+	background: $content-background[color];
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .external-link-button{
+	color: $color-link;
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .external-link-button:hover{
+	color: $color-link-hover;
+}
+.cherry-portfolio-ajax-loader .cherry-spinner .cherry-double-bounce1{
+	background: $color-link-hover;
+}
+.cherry-portfolio-ajax-loader .cherry-spinner .cherry-double-bounce2{
+	background: $color-link;
+}
+.portfolio-wrap .portfolio-filter ul.filter li a{
+	color: $color-primary;
+}
+.portfolio-wrap .portfolio-filter ul.filter li a:hover{
+	color: $color-link-hover;
+}
+.portfolio-wrap .portfolio-filter ul.filter li.active a{
+	color: $color-link-hover;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .media-content .rollover-content .item-link, .portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-link, .portfolio-wrap .portfolio-container.list-layout .portfolio-list .portfolio-item .inner-wrap .media-content .rollover-content .item-link, .portfolio-wrap .portfolio-container.justified-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-link{
+	color: $color-secondary;
+	border-color: $color-link;
+	background: $color-link;
+	border-color: transparent;
+	background: transparent;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .media-content .rollover-content .item-link:hover, .portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-link:hover, .portfolio-wrap .portfolio-container.list-layout .portfolio-list .portfolio-item .inner-wrap .media-content .rollover-content .item-link:hover, .portfolio-wrap .portfolio-container.justified-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-link:hover{
+	color: $color-link-hover;
+	background: $color-secondary;
+	background: transparent;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .item-content{
+	border-color: transparent;
+	background: $body-background[color];
+	color: $color-secondary;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .item-content a{
+	color: $color-secondary;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .item-content a:hover{
+	color: $color-link;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .item-content .link_title a{
+	color: $color-secondary;
+}
+.portfolio-wrap .portfolio-container.masonry-layout .portfolio-list div.portfolio-item .inner-wrap .item-content .link_title a:hover{
+	color: $color-link-hover;
+}
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a, .portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a{
+	background: $color-link;
+	color:  $color-secondary;
+}
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li.active a, .portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a:hover, .portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a:hover{
+	background: $color-link-hover;
+	text-decoration: none;
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell, .portfolio-wrap .portfolio-container.justified-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell{
+	color:  @lighten( $color-gray-variations , 100 );
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell h3, .portfolio-wrap .portfolio-container.justified-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell h3{
+	color:  @lighten( $color-gray-variations , 100 );
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell .post-author a, .portfolio-wrap .portfolio-container.justified-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell .post-author a{
+	color:  @lighten( $color-gray-variations , 100 );
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell h5, .portfolio-wrap .portfolio-container.justified-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-content-inner .table-cell h5{
+	color:  @lighten( $color-gray-variations , 100 );
+}
+.cherry-portfolio-single-post a:hover{
+	color: $color-link-hover!important;
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container .post-date, body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-taxonomy-list span{
+	color: $color-link;
+}
+.swiper-button-next:before, .swiper-button-prev:before, .post-gallery_next:before, .post-gallery_prev:before{
+	color: $color-link-hover;
+}
+.swiper-button-next:hover:before, .swiper-button-prev:hover:before, .post-gallery_next:hover:before, .post-gallery_prev:hover:before{
+	color: $color-secondary;
+}
+.swiper-pagination .swiper-pagination-bullet{
+	border-color: $color-secondary;
+	background: transparent;
+}
+.swiper-pagination .swiper-pagination-bullet:hover{
+	background: $color-secondary;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+	background: $color-secondary;
+}
+.portfolio-wrap .portfolio-container .portfolio-list div.portfolio-item .inner-wrap{
+	background: $content-background[color];
+}
+.portfolio-wrap .portfolio-container .portfolio-list div.portfolio-item .inner-wrap .media-content{
+	/*background: $content-background[color];*/
+	background: @darken( $color-gray-variations , 100 );
+}
+.portfolio-wrap .portfolio-filter ul.filter li a{
+	background: $content-background[color];
+}
+.portfolio-wrap .portfolio-filter ul.filter li a:hover{
+	background: transparent;
+	color: $color-link-hover;
+}
+.portfolio-wrap .portfolio-filter ul.filter li.active a{
+	background: transparent;
+	color: $color-link-hover;
+}
+
+.portfolio-wrap .portfolio-container .portfolio-ajax-button .load-more-button a{
+	background: $color-link;
+}
+.portfolio-wrap .portfolio-container .portfolio-ajax-button .load-more-button a:hover{
+	background: $color-link-hover;
+}
+.portfolio-wrap .portfolio-filter ul.order-filter li, .portfolio-wrap .filter-category ul.order-filter li{
+	background: transparent;
+	color: $color-link;
+}
+.portfolio-wrap .portfolio-filter ul.order-filter li:hover, .portfolio-wrap .filter-category ul.order-filter li:hover{
+	background: transparent;
+	color: $color-link-hover!important;
+}
+.cherry-portfolio-single-post .dashicons{
+	color: $color-link-hover;
+}
+/* end portfolio */
+
+
+/* hover pic */
+.thumbnail a, .post-thumbnail a, .team-listing_photo a{
+	background: $color-secondary;
+}
+.thumbnail a:after, .post-thumbnail a:after, .team-listing_photo a:after{
+	color: $color-link;
+	background:  $color-secondary;;
+}
+.thumbnail a:before, .post-thumbnail a:before, .team-listing_photo a:before{
+	background: rgba(0,0,0,0.6);
+}
+/* end hover pic */
+
+/* search */
+.search-results .btn-default{
+	color: $color-secondary;
+	background: $color-link;
+}
+.search-results .btn-default:hover{
+	background: $color-link-hover;
+}
+/* end search */
+
+
+/* blog */
+.nav-links .page-numbers.dots{
+	background: $color-link;
+	color: @lighten( $color-gray-variations , 100 );
+}
+.nav-links .page-numbers{
+	background: $color-link-hover;
+	color: @lighten( $color-gray-variations , 100 );
+}
+.nav-links a.page-numbers{
+	background: $color-link;
+	color: @lighten( $color-gray-variations , 100 );
+}
+.nav-links a:hover.page-numbers{
+	background: $color-link-hover;
+}
+.entry-meta .posted-on:before, .entry-meta .author:before, .entry-meta .comments-link:before, .comments-area .comment-list .comment-meta .comment-metadata:before{
+	color: $color-link-hover;
+}
+.comments-area .comment-list .comment-body{
+	background: transparent;
+}
+.author-bio, .comments-area .comment-list .comment-content, .comments-area .comment-list .comment-body{
+	border-color: @lighten( $color-gray-variations , 18 );
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container, body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-taxonomy-list{
+	border-color: @lighten( $color-gray-variations , 18 );
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .external-link-button{
+	border-color: @lighten( $color-gray-variations , 18 );
+}
+.blog .post .entry-meta{
+	border-color: @lighten( $color-gray-variations , 18 );
+}
+
+.related-posts_title, .comment-reply-title, .comments-title{
+	color: $typography-h2[color];
+}
+
+.comments-area .comment-list .reply .comment-reply-link{
+	background: transparent;
+	color: $color-link-hover;
+}
+.comments-area .comment-list .reply .comment-reply-link:hover{
+	background: transparent;
+	color: $color-link;
+}
+.comment-respond form .form-submit .submit{
+	color: $color-primary;
+	border-color: $color-primary;
+	background: transparent;
+}
+.comment-respond form .form-submit .submit:hover{
+	color: $color-secondary;
+	background: $color-link-hover;
+}
+.entry-meta-bottom .post_tag a{
+	color:  @darken( $color-gray-variations , 20 );
+}
+.entry-meta-bottom .post_tag a:hover{
+	color:  $color-link-hover;
+}
+.entry-header h2 a{
+	color: $color-link;
+}
+.entry-header h2 a:hover{
+	color: $color-link-hover;
+}
+
+/* end blog */
+
+/* sidebar */
+.cherry-sidebar-main h3 a, .cherry-sidebar-secondary h3 a{
+	color: $color-link;
+}
+.cherry-sidebar-main h3 a:hover, .cherry-sidebar-secondary h3 a:hover{
+	color: $color-link-hover;
+}
+.cherry-sidebar-main ul li a:before, .cherry-sidebar-secondary ul li a:before{
+	color: $color-link;
+}
+.cherry-sidebar-main ul li a:hover:before, .cherry-sidebar-secondary ul li a:hover:before{
+	color: $color-link-hover;
+}
+.cherry-sidebar-main #wp-calendar caption, .cherry-sidebar-secondary #wp-calendar caption{
+	color: $color-link-hover;
+}
+.cherry-sidebar-main #wp-calendar thead tr th, .cherry-sidebar-secondary #wp-calendar thead tr th{
+	color: $color-link;
+}
+.cherry-sidebar-main #wp-calendar tfoot tr td a, .cherry-sidebar-secondary #wp-calendar tfoot tr td a{
+	color: $color-link-hover;
+}
+.cherry-sidebar-main #wp-calendar tfoot tr td a:hover, .cherry-sidebar-secondary #wp-calendar tfoot tr td a:hover{
+	color: $color-link;
+}
+.cherry-sidebar-main ul li.current_page_parent a, .cherry-sidebar-secondary ul li.current_page_parent a{
+	color: $color-link;
+}
+.cherry-sidebar-main ul li a, .cherry-sidebar-secondary ul li a{
+	color: $color-link;
+}
+.cherry-sidebar-main ul li a:hover, .cherry-sidebar-secondary ul li a:hover{
+	color: $color-link-hover;
+}
+
+/* end sidebar */
+
+/* input */
+input[type="search"], input[type="text"], input[type="email"], input[type="url"], input[type="tel"], input[type="password"], textarea{
+	border-color: @lighten( $color-gray-variations , 18 );
+	background: transparent;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background: none!important;
+    background-color: transparent!important;
+    -webkit-box-shadow: inset 0 0 0 50px $color-secondary !important;
+}
+
+input:-webkit-autofill {
+    //-webkit-box-shadow: inset 0 0 0 50px #fff !important; /* Цвет фона */
+   // -webkit-text-fill-color: #999 !important; /* цвет текста */
+    //color: #999 !important; /* цвет текста */
+}
+.wpcf7 form .submit-wrap input{
+	color: $color-primary;
+	border-color: $color-primary;
+	background: transparent;
+}
+.wpcf7 form .submit-wrap input:hover{
+	color: $color-secondary;
+	background: $color-link-hover;
+}
+/* end input */
+
+/* search */
+.search-submit{
+	background: $color-link;
+	color: $color-secondary;
+}
+.search-submit:hover{
+	background: $color-link-hover;
+	color: $color-secondary;
+}
+/* end search */
+
+/* follow us */
+.cherry-follow_title{
+	color: $color-secondary;
+}
+.cherry-follow_list:before{
+	color: $color-secondary;
+}
+.cherry-follow_list li a i{
+	background: $color-secondary;
+	color: $color-info[color];
+}
+.cherry-follow_list li a:hover i{
+	background: $color-link-hover;
+	color: $color-secondary;
+}
+/* end follow us */
+
+
+/* footer */
+
+#footer .site-info a{
+	color: $color-secondary;
+}
+#footer .site-info a:hover{
+	color: $color-link;
+}
+#footer .site-info .footer-site-link{
+	color: $typography-footer-logo[color]!important;
+}
+.footer-logo-link, .footer-logo-link:hover{
+	color: $typography-footer-logo[color];
+}
+#footer .menu-secondary ul li a{
+	color: $color-primary; 
+}
+#footer .menu-secondary ul li a:hover, #footer #menu-secondary #menu-secondary-items li.current_page_item a{
+	color: $color-secondary!important; 
+}
+
+/* end footer */
+
+
+
+
+
+
+/* buttons */
+
+.btn-default{
+	background-color: $color-link-hover;
+	color: $color-secondary;
+}
+.btn-default:hover{
+	background-color: $color-primary;
+	color: $color-secondary;
+}
+.cherry-btn-primary{
+	background-color: transparent;
+	color: $color-secondary;
+}
+.cherry-btn-primary:hover{
+	background-color: $color-primary;
+	color: $color-secondary;
+}
+.cherry-btn-primary.type_2, .cherry-btn-primary.type_5{
+	background-color: transparent;
+	color: $color-secondary;
+	border-color: $color-secondary;
+}
+.cherry-btn-primary.type_2:hover, .cherry-btn-primary.type_5:hover{
+	background-color: $color-primary;
+	color: $color-secondary;
+}
+
+/* end buttons */
+
+
+
+/* content */
+#menu-primary #menu-primary-items .cherry-mega-menu-sub .mega-block-title{
+	color: $color-primary;
+}
+#menu-primary #menu-primary-items .sub-menu li, #menu-primary #menu-primary-items .simple-sub li{
+	background: $color-secondary;
+}
+.parallax_2 .parallax-content{
+	color: $color-secondary;
+}
+.parallax_2 .parallax-content h3{
+	color: $color-secondary;
+}
+.parallax_2 .parallax-content p strong{
+	color: $color-link-hover;
+}
+.parallax_2 .parallax-content h3:before, .parallax_2 .parallax-content h3:after{
+	background: $color-secondary;
+}
+.portfolio_1 .portfolio-container .portfolio-list .portfolio-item .inner-wrap .item-content .item-content-inner .btn_block{
+	background: $body-background[color];
+}
+.parallax_3 .parallax-content h2, .parallax_3 .parallax-content h3, .parallax_3 .parallax-content h5, .parallax_3 .parallax-content p{
+	color: $color-secondary;
+}
+.parallax_3 .parallax-content h5 em{
+	color: $color-link-hover;
+}
+.parallax_4 .parallax-content h2{
+	color: $color-secondary;
+}
+.post_3 .cherry-posts-item .inner{
+	color: $color-secondary;
+}
+.post_3 .cherry-posts-item .inner .post-title a{
+	color: $color-secondary;
+}
+.post_3 .cherry-posts-item .inner .post-title a:hover{
+	color: $color-link-hover;
+}
+.parallax_7 .parallax-content, .parallax_7 .parallax-content h2, .parallax_7 .parallax-content h3{
+	color: $color-secondary;
+}
+.list_3 ul li a{
+	color: $color-secondary;
+}
+.list_3 ul li a:hover{
+	color: $color-link-hover;
+}
+/* end content */

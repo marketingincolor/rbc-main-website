@@ -1,0 +1,74 @@
+/*
+Theme Name:  theme55705
+Theme URI:   http://yoursite.com/link/to/theme
+Description: Your theme description.
+Author:      Your Name
+Author URI:  http://yoursite.com
+Version:     1.0.0
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:        fixed-layout, fluid-layout, responsive-layout, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+Text Domain: theme55705
+Template:    cherryframework4
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.site-content .container-fluid .content-area { padding-top: 0px !important; }
+
+.block_img { height: 190px; padding: 0px 0px 0px 0px; }
+
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-title:before { padding-right: 18px; }
+
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-title:before { padding-top: 20px; }
+
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-content { padding: 10px 0 0 33px; }
+
+h3.widget-title {
+position: relative;
+margin-bottom: 50px;
+text-transform: uppercase;
+text-align: center;
+font-size: 25px;
+line-height: 33px;
+letter-spacing: 0px;
+}
+
+.col-lg-8 { padding-top: 40px; }
+
+.site { word-wrap: none; -webkit-hyphens: none; }
+
+h2 {margin-bottom: 25px;}
+
+h3.widget-title {margin-bottom: 25px;}
+
+.parallax_5 .parallax-content { background: rgba(255, 255, 255, 0.5); }
+
+.parallax_6 .parallax-content { background: rgba(255, 255, 255, 0.5); }
+
+.parallax_7 .parallax-content { background: rgba(0, 0, 0, 0.2); }
+
+/* Paragraph formatting for conent page */
+.entry-content p {
+    margin: 0 0 36px;
+    padding-left: 1.4%;
+}
+
+.cherry-list p{
+    padding-left: 0;
+}
+
+/* For screen readers only
+----------------------------------------------------------------*/
+
+.screen-reader-text { 
+    clip: rect(1px, 1px, 1px, 1px)
+    position: absolute !important; 
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden;
+}
+
+/*End
+----------------------------------------------------------------*/
