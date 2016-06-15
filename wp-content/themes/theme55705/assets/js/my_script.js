@@ -6,7 +6,7 @@
 	        var $this = $(this),
 	            txt = $this.text();
 				if (txt === "facebook") {
-					$this.html('<div class="txt_menu"><span><i class="fa fa-facebook-square"></i></span></div><div class="txt_menu"><span><i class="fa fa-facebook-square"></i></span></div>');
+					$this.html('<div class="txt_menu"><span><i class="fa fa-facebook-square"></i><i class="zero">facebook</i></span></div><div class="txt_menu"><span><i class="fa fa-facebook-square"></i><i class="zero">facebook</i></span></div>');
 				} else {
 					$this.html('<div class="txt_menu"><span>'+ txt +'</span></div><div class="txt_menu"><span>'+ txt +'</span></div>');
 				}
